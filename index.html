@@ -1,0 +1,212 @@
+<html style="margin:0;padding:0;">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;1,500;1,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+(function(){
+  var s = document.createElement('style');
+  s.textContent = [
+    ':root{--ink:#000;--paper:#fff;--muted:#555;--soft:#f2f2f0;--line:#000}',
+    '.hueco{color:transparent;-webkit-text-stroke:1.5px var(--ink);text-transform:uppercase;letter-spacing:.04em}',
+    '.hueco-b{color:transparent;-webkit-text-stroke:1.5px #fff;text-transform:uppercase;letter-spacing:.04em}',
+    '.hueco-xl{color:transparent;-webkit-text-stroke:3px var(--ink);text-transform:uppercase;letter-spacing:.02em;line-height:.95}',
+    '.hueco-xlb{color:transparent;-webkit-text-stroke:2.5px #fff;text-transform:uppercase;letter-spacing:.02em;line-height:.95}',
+    '.hueco-lg{color:transparent;-webkit-text-stroke:2px var(--ink);text-transform:uppercase;letter-spacing:.05em}',
+    '.hueco-md{color:transparent;-webkit-text-stroke:1.2px var(--ink);text-transform:uppercase;letter-spacing:.08em}',
+    '.hueco-mdb{color:transparent;-webkit-text-stroke:1.2px #fff;text-transform:uppercase;letter-spacing:.08em}',
+    '.reveal{opacity:0;transform:translateY(18px);animation:fu .7s ease forwards}',
+    '.reveal:nth-child(2){animation-delay:.08s}.reveal:nth-child(3){animation-delay:.16s}',
+    '.reveal:nth-child(4){animation-delay:.24s}.reveal:nth-child(5){animation-delay:.32s}',
+    '.reveal:nth-child(6){animation-delay:.4s}.reveal:nth-child(7){animation-delay:.48s}',
+    '@keyframes fu{to{opacity:1;transform:translateY(0)}}',
+    '.tarjeta{transition:transform .25s ease, box-shadow .25s ease}',
+    '.tarjeta:hover{transform:translateY(-4px);box-shadow:8px 8px 0 var(--ink)}',
+    '.tarjeta-negra:hover{box-shadow:8px 8px 0 #bbb}',
+    '.tallo{display:none}',
+    '@media(min-width:768px){.tallo{display:block}}',
+    '.dot-grid{background-image:radial-gradient(#000 1px, transparent 1px);background-size:14px 14px;opacity:.12}'
+  ].join('');
+  document.head.appendChild(s);
+})();
+</script>
+<div style="background-color:transparent;box-sizing:border-box;">
+<div style="background:var(--paper);color:var(--ink);font-family:'Karla',sans-serif;">
+<div class="max-w-6xl mx-auto px-5 md:px-8 py-10 md:py-16 relative overflow-hidden">
+
+  <div class="dot-grid absolute inset-0 pointer-events-none"></div>
+  <div class="relative">
+
+    <!-- CABECERA -->
+    <div class="reveal text-center mb-10 md:mb-14">
+      <p class="hueco-md text-xs md:text-sm font-semibold mb-4">Organizador visual · Vida cristiana</p>
+      <h1 class="hueco-xl font-bold font-['Oswald']" style="font-size:clamp(56px,13vw,150px);">La oración</h1>
+      <p class="mt-5 text-lg md:text-2xl italic" style="font-family:'Playfair Display',serif;color:var(--muted);">
+        Su importancia en la vida del cristiano
+      </p>
+      <div class="flex items-center justify-center gap-3 mt-7">
+        <span style="width:60px;height:2px;background:#000;"></span>
+        <span style="width:8px;height:8px;background:#000;transform:rotate(45deg);"></span>
+        <span style="width:60px;height:2px;background:#000;"></span>
+      </div>
+    </div>
+
+    <!-- FRASE CENTRAL -->
+    <div class="reveal mb-12 md:mb-16" style="background:#000;color:#fff;padding:28px 24px;border:3px solid #000;">
+      <p class="hueco-xlb font-bold text-center font-['Oswald']" style="font-size:clamp(28px,5.5vw,56px);">Orad sin cesar</p>
+      <p class="text-center mt-3 text-sm tracking-widest" style="color:#ddd;">1 TESALONICENSES 5:17</p>
+      <p class="text-center mt-4 max-w-2xl mx-auto text-sm md:text-base" style="color:#ccc;line-height:1.7;">
+        La oración no es un ritual que se cumple, sino el aire que respira la vida cristiana:
+        sin ella no hay relación viva con Dios ni fortaleza para el día a día.
+      </p>
+    </div>
+
+    <!-- RAYA MAESTRA -->
+    <div class="reveal relative mb-0 hidden md:block" style="height:26px;">
+      <div style="position:absolute;left:0;right:0;top:24px;height:2px;background:#000;"></div>
+    </div>
+
+    <!-- SEIS RAMAS -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7">
+
+      <div class="reveal tarjeta relative" style="background:#fff;border:2px solid #000;padding:24px;">
+        <div class="tallo" style="position:absolute;top:-26px;left:50%;width:2px;height:26px;background:#000;"></div>
+        <div class="tallo" style="position:absolute;top:-31px;left:50%;transform:translateX(-50%);width:10px;height:10px;background:#000;border-radius:50%;"></div>
+        <div class="flex items-start justify-between mb-3">
+          <span class="hueco-lg font-bold font-['Oswald']" style="font-size:44px;">01</span>
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg>
+        </div>
+        <h3 class="hueco-md font-bold font-['Oswald'] text-lg mb-2">Comunión</h3>
+        <p class="text-sm mb-4" style="color:#222;line-height:1.65;">
+          Diálogo íntimo con el Padre, no un monólogo. En la oración el cristiano habita en Cristo y recibe su amor.
+        </p>
+        <p class="text-xs italic" style="font-family:'Playfair Display',serif;color:var(--muted);border-top:1px dashed #999;padding-top:10px;">
+          «Permanezcan en mí, y yo en ustedes.» — Juan 15:4
+        </p>
+      </div>
+
+      <div class="reveal tarjeta relative" style="background:#fff;border:2px solid #000;padding:24px;">
+        <div class="tallo" style="position:absolute;top:-26px;left:50%;width:2px;height:26px;background:#000;"></div>
+        <div class="tallo" style="position:absolute;top:-31px;left:50%;transform:translateX(-50%);width:10px;height:10px;background:#000;border-radius:50%;"></div>
+        <div class="flex items-start justify-between mb-3">
+          <span class="hueco-lg font-bold font-['Oswald']" style="font-size:44px;">02</span>
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V17h6v-.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg>
+        </div>
+        <h3 class="hueco-md font-bold font-['Oswald'] text-lg mb-2">Guía</h3>
+        <p class="text-sm mb-4" style="color:#222;line-height:1.65;">
+          Quien ora recibe luz y sabiduría para decidir. Dios dirige los pasos del que busca su voluntad en secreto.
+        </p>
+        <p class="text-xs italic" style="font-family:'Playfair Display',serif;color:var(--muted);border-top:1px dashed #999;padding-top:10px;">
+          «Si alguno tiene poca sabiduría, pídala a Dios.» — Santiago 1:5
+        </p>
+      </div>
+
+      <div class="reveal tarjeta tarjeta-negra relative" style="background:#000;color:#fff;border:2px solid #000;padding:24px;">
+        <div class="tallo" style="position:absolute;top:-26px;left:50%;width:2px;height:26px;background:#000;"></div>
+        <div class="tallo" style="position:absolute;top:-31px;left:50%;transform:translateX(-50%);width:10px;height:10px;background:#000;border-radius:50%;"></div>
+        <div class="flex items-start justify-between mb-3">
+          <span class="hueco-xlb font-bold font-['Oswald']" style="font-size:44px;-webkit-text-stroke:2px #fff;">03</span>
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg>
+        </div>
+        <h3 class="hueco-mdb font-bold font-['Oswald'] text-lg mb-2">Fortaleza</h3>
+        <p class="text-sm mb-4" style="color:#ddd;line-height:1.65;">
+          La oración es arma de guerra espiritual. Reviste al creyente de poder y le da victoria en la tentación.
+        </p>
+        <p class="text-xs italic" style="font-family:'Playfair Display',serif;color:#aaa;border-top:1px dashed #555;padding-top:10px;">
+          «Oren en el Espíritu en todo tiempo.» — Efesios 6:18
+        </p>
+      </div>
+
+      <div class="reveal tarjeta relative" style="background:#fff;border:2px solid #000;padding:24px;">
+        <div class="flex items-start justify-between mb-3">
+          <span class="hueco-lg font-bold font-['Oswald']" style="font-size:44px;">04</span>
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
+        </div>
+        <h3 class="hueco-md font-bold font-['Oswald'] text-lg mb-2">Transformación</h3>
+        <p class="text-sm mb-4" style="color:#222;line-height:1.65;">
+          Orar renueva la mente y alinea el corazón con Dios. El que ora de verdad, sale cambiado de su presencia.
+        </p>
+        <p class="text-xs italic" style="font-family:'Playfair Display',serif;color:var(--muted);border-top:1px dashed #999;padding-top:10px;">
+          «Transfórmense mediante la renovación de su mente.» — Romanos 12:2
+        </p>
+      </div>
+
+      <div class="reveal tarjeta relative" style="background:#fff;border:2px solid #000;padding:24px;">
+        <div class="flex items-start justify-between mb-3">
+          <span class="hueco-lg font-bold font-['Oswald']" style="font-size:44px;">05</span>
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 4a3 3 0 0 1 0 6"/><path d="M18 20c0-2.5-1-4.6-2.6-5.8"/></svg>
+        </div>
+        <h3 class="hueco-md font-bold font-['Oswald'] text-lg mb-2">Intercesión</h3>
+        <p class="text-sm mb-4" style="color:#222;line-height:1.65;">
+          Ponemos a otros en la presencia de Dios. La iglesia ora por las necesidades del mundo y de los hermanos.
+        </p>
+        <p class="text-xs italic" style="font-family:'Playfair Display',serif;color:var(--muted);border-top:1px dashed #999;padding-top:10px;">
+          «Oren por todas las personas.» — 1 Timoteo 2:1
+        </p>
+      </div>
+
+      <div class="reveal tarjeta relative" style="background:#fff;border:2px solid #000;padding:24px;">
+        <div class="flex items-start justify-between mb-3">
+          <span class="hueco-lg font-bold font-['Oswald']" style="font-size:44px;">06</span>
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg>
+        </div>
+        <h3 class="hueco-md font-bold font-['Oswald'] text-lg mb-2">Gratitud</h3>
+        <p class="text-sm mb-4" style="color:#222;line-height:1.65;">
+          La acción de gracias abre la puerta a la paz de Dios, que guarda el corazón y la mente en Cristo Jesús.
+        </p>
+        <p class="text-xs italic" style="font-family:'Playfair Display',serif;color:var(--muted);border-top:1px dashed #999;padding-top:10px;">
+          «Con acción de gracias, presenten sus peticiones.» — Filipenses 4:6
+        </p>
+      </div>
+    </div>
+
+    <!-- CUATRO MOVIMIENTOS -->
+    <div class="reveal mt-14 md:mt-20">
+      <h2 class="hueco-lg font-bold font-['Oswald'] text-center mb-8" style="font-size:clamp(26px,4.5vw,44px);">Cuatro movimientos de la oración</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div style="border:2px solid #000;padding:18px;background:#fff;">
+          <p class="hueco-xl font-bold font-['Oswald'] text-center" style="font-size:48px;-webkit-text-stroke:2px #000;">A</p>
+          <p class="hueco-md text-center font-bold font-['Oswald'] text-xs mt-1">Adoración</p>
+          <p class="text-xs text-center mt-2" style="color:var(--muted);line-height:1.5;">Reconocer quién es Dios.</p>
+        </div>
+        <div style="border:2px solid #000;padding:18px;background:#fff;">
+          <p class="hueco-xl font-bold font-['Oswald'] text-center" style="font-size:48px;-webkit-text-stroke:2px #000;">C</p>
+          <p class="hueco-md text-center font-bold font-['Oswald'] text-xs mt-1">Confesión</p>
+          <p class="text-xs text-center mt-2" style="color:var(--muted);line-height:1.5;">Pedir perdón por el pecado.</p>
+        </div>
+        <div style="border:2px solid #000;padding:18px;background:#000;">
+          <p class="hueco-xlb font-bold font-['Oswald'] text-center" style="font-size:48px;-webkit-text-stroke:2px #fff;">G</p>
+          <p class="hueco-mdb text-center font-bold font-['Oswald'] text-xs mt-1">Gratitud</p>
+          <p class="text-xs text-center mt-2" style="color:#bbb;line-height:1.5;">Dar gracias por sus dones.</p>
+        </div>
+        <div style="border:2px solid #000;padding:18px;background:#fff;">
+          <p class="hueco-xl font-bold font-['Oswald'] text-center" style="font-size:48px;-webkit-text-stroke:2px #000;">S</p>
+          <p class="hueco-md text-center font-bold font-['Oswald'] text-xs mt-1">Súplica</p>
+          <p class="text-xs text-center mt-2" style="color:var(--muted);line-height:1.5;">Pedir por necesidades.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PIE + FIRMA -->
+    <div class="reveal mt-14 md:mt-20 pt-8" style="border-top:3px double #000;">
+      <p class="hueco-md text-center text-xs font-semibold mb-3">Promesa para el que ora</p>
+      <p class="text-center italic text-base md:text-xl" style="font-family:'Playfair Display',serif;line-height:1.6;">
+        «Pidan, y se les dará; busquen, y encontrarán; llamen, y se les abrirá.»
+      </p>
+      <p class="text-center mt-3 text-xs tracking-widest" style="color:var(--muted);">MATEO 7:7</p>
+
+      <!-- LÍNEAS DE FIRMA: NOMBRE E IE -->
+      <div class="mt-10 pt-6 flex flex-wrap justify-center items-end gap-x-10 gap-y-6" style="border-top:1px solid #000;">
+        <div style="text-align:center;min-width:180px;">
+          <p style="border-bottom:1.5px solid #000;height:26px;"></p>
+          <p class="hueco-md text-[10px] font-semibold mt-1">Maikoll Delgado 2do D</p>
+        </div>
+        <div style="text-align:center;min-width:140px;">
+          <p style="border-bottom:1.5px solid #000;height:26px;"></p>
+          <p class="hueco-md text-[10px] font-semibold mt-1">IE 2002 VMR ugel 02</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</html>
